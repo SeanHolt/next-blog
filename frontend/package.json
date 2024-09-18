@@ -1,0 +1,34 @@
+{
+  "name": "react-blog",
+  "version": "0.0.1",
+  "description": "React Next blog",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdxeditor/editor": "^3.11.3",
+    "@next/env": "^14.2.9",
+    "@uiw/react-md-editor": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "md-editor-rt": "^4.20.1",
+    "next": "^14.2.7",
+    "next-auth": "^4.24.7",
+    "next-remove-imports": "^1.0.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.13.0",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
