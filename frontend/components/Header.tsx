@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             >
               Signup
             </a>
-            <a className="link" href="#" onClick={() => signIn()}>
+            <a className="link" href="#" onClick={() => signIn()} data-active={isActive("/auth/signin")}>
               Sign In
             </a>
           </>
@@ -74,6 +74,10 @@ const Header: React.FC = () => {
           border: 1px solid black;
           padding: 0.5rem 1rem;
           border-radius: 3px;
+        }
+        .right .link[data-active="true"] {
+            color: gray;
+            font-weight: bold;
         }
       `}</style>
     </nav>
